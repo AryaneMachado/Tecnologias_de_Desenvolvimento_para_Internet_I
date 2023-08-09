@@ -1,0 +1,19 @@
+h2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: 'Courie New', Courier, monospace;
+    color:blue;
+    font-size:medium;
+}
+
+body{
+    background-color:lightgray;
+    color:blueviolet;
+}
+div{
+    background-color: whitesmoke;
+
+}
