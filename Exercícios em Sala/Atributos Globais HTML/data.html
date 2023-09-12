@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Data-*</title>
+    </head>
+
+    <body>
+        <ul data-cpf="022392">
+            <li>Nome: Luiz Henrique</li>
+            <li>Tel.: (35) 98832-9490</li>
+        </ul>
+
+        <ul data-cpf="150871">
+            <li>Nome: Emerson</li>
+            <li>Tel.: (35) 99717-1058</li>
+        </ul>
+
+        <script>
+            const uls = document.querySelectorAll('ul').forEach((ul) => {
+                console.log(ul.dataset);
+            });
+
+        </script>
+    </body>
+</html>
