@@ -1,3 +1,32 @@
-body {
+* { /*Definindo a estrutura básicade todos os blocos*/
+    margin: 0px;
+    padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body {
+    font-size: 15px;
+}
+
+h1,p,ul {
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+    margin: 5px;
+    padding: 10px;
+}
+
+#first { /*Estilizando apenas o techo com id first*/
+
+    text-indent: 25px;
+
+}
+
+#first::first-letter{ /* Estlizando um pseudoelemento, primeira letra do parágrafo*/
+
+    /*color:blueviolet;*/
+    font-size: 2em; /*letra destacada com tamanho 2 vezes maior que o tamanho pai (do body)*/
 }
