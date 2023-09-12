@@ -1,5 +1,5 @@
 function mudarCores(){
-    title1.style.color = 'red';
+    title1.style.color = 'yellow';
     div1.style.background = 'gray';
     div1.innerHTML = "<p> Agora é um paragrafo. </p>"
 }
