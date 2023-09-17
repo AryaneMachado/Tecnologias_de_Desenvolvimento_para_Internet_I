@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificador Id</title>
+    <style>
+        #header { 
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="header">Olá,</h3>
+    <h3>Seja bem-vindo!</h3>
+    <button onclick="displayName()">Login</button>
+    
+    <script>
+        function displayName(){
+            const e = document.getElementById('header');
+            e.innerHTML += 'Emerson';
+        }
+    </script>
+</body>
+</html>

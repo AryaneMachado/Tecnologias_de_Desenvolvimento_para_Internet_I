@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropzone</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            background: red;
+
+        }
+        p {
+            background-color: yellow;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="par" dradgable = "true">Um texto qualquer</p>
+
+    <div id="drop" dropzone = "move"></div>
+
+    <script>
+        par.addEventListener('dragstart', event =>{
+            // Salva informação no Data Transfer
+            event.dataTransfer.setData('Text', event.target.id);});
+    
+        drop.addeventListener('dragover', event => {
+            //Impede o evento padrão do navegador
+            event.preventDefault(); });
+
+    drop.addEventListener('drop', event => {
+        const id = event.dataTransfer.getData('Text');
+        const element = document.getElementById(id);
+        const action = drop.getAttribute('dropzone');
+
+        if (action == 'copy'){
+            const clone = element.cloneNode(true);
+            event.target.appendChild(clone);
+        }
+        else if (action == 'move'){
+            event.target.appendChild(element);
+        }
+
+    });
+
+    </script>
+    
+</body>
+</html>
