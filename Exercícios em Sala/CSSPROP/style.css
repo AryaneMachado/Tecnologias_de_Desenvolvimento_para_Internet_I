@@ -1,0 +1,30 @@
+h1 {
+
+    color:white;
+    background-color: black;
+}
+
+/* RGB
+Hexa do vermelho #F00 == #FF0010
+
+
+*/
+
+p {
+    background-color: #F00;
+}
+
+span {
+    background-color: rgb(0, 0, 255);
+}
+
+div {
+    color:black;
+    background-color: rgba(0, 255, 0, 0.5); 
+    /* A letra "a" no rgb indica transparência na cor*/
+    /*O valor "0.5" indica que a cor terá metade da sua tranparência"*/
+    
+    height: 200px;
+    width: 200px;
+
+}

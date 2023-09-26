@@ -19,7 +19,7 @@ p {
 
 #first::first-letter {
     font-size: 2em;
-    color: red;
+    color: blue;
 }
 
 .highlight {
@@ -30,4 +30,16 @@ p {
 li.highlight {
     font-weight: normal;
     text-decoration: underline;
+}
+
+div p {
+    background-color: burlywood;
+}
+
+li em {
+    color:red;
+}
+
+div em{
+    background-color: aqua;
 }
