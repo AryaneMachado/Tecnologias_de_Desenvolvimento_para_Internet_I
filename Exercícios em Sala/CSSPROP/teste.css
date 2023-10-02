@@ -3,22 +3,66 @@
     margin:5px;
 }
 
+body {
+    color:red;
+    /*writing-mode: sideways-rl; -> Deixa o texto na vertical (em pé)*/
+}
 
 div {
-    background: #ccc;
+    /*background: #ccc;*/
     padding: 10px 30px 30px 30px; /*Modo simples para especificar 4 valores para a margem que está em diferentes sentidos*/
     margin: 5px;
 }
 
 p {
-    background: blueviolet;
+    background: white;
     padding: 5px;
     margin: 2px 0px 2px 0px;
+    border: 1px solid #84f; /*É o contorno*/
+    
+
+    /*border: 1px solid #84f; -> É o contorno
+    border-radius: 10px; -> Arredonda as bordas*/
+    /*border:px dashed blue; -> É o pontilhado*/
 }
+
+/*Estilizando as bordas separadamente:
+
+p { 
+    border-bottom: #84f;
+    border-left: green;
+    border-right: yellow ;
+
+
+} */
 
 h1 { 
     padding: 15px;
     padding-buttom:5px;
     background: #00f;
     margin: 5px;
+}
+
+img {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border:2px solid blue;
+
+}
+
+/*Forçando a estiçização dos elementos:*/
+
+a, button {
+    color:rgb(46, 145, 51);
+
+}
+
+span {
+
+    background-color: chartreuse; 
+    display:block; /*Cada span ficaem uma linha, não podem ocupar uma só*/
+    visibility: hidden; /*remove apenas visualmente no navegador o elemento, mas respeita o espaço desses*/
+
 }
