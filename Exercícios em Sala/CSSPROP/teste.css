@@ -1,0 +1,24 @@
+* {
+    padding:0px;
+    margin:5px;
+}
+
+
+div {
+    background: #ccc;
+    padding: 10px 30px 30px 30px; /*Modo simples para especificar 4 valores para a margem que está em diferentes sentidos*/
+    margin: 5px;
+}
+
+p {
+    background: blueviolet;
+    padding: 5px;
+    margin: 2px 0px 2px 0px;
+}
+
+h1 { 
+    padding: 15px;
+    padding-buttom:5px;
+    background: #00f;
+    margin: 5px;
+}
