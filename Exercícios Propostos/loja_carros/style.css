@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+    color: #111;
+    
+}
+
+div {
+    justify-self: center;
+}
+
+.dados {
+    background-color: #111;
+    border-radius: 4px;
+    width: 80%;
+    text-align: center;
+    padding: 10px 40px 40px 40px;
+    margin: 10px;
+
+}
+
+.dados h2 {
+    color: #fff;
+}
+
+.dados p {
+    color: #b2b2b2;
+}
+
+.dados span {
+    color: #febe01;
+}
+
+.dados button {
+    background-color: #febe01;
+    color: #111;
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 4px;
+}
+
+
