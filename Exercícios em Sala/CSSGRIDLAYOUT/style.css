@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; /*A qtd de auto indica a qtd de colunas*/
+    background-color: purple;
+    padding: 5px;
+    gap: 2px; /*Insere o espaçamento entre os itens do grid em relação a borda*/
+}
+
+.itemGrid {
+
+    color:white;
+    background-color: rgba(225, 255, 255, 0.5);
+    /*border: 1px solid yellow;*/
+    text-align: center;
+
+
+
+}
