@@ -1,18 +1,44 @@
-.grid-container {
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-container { /*grid-container deve conter o display grid declarado*/
+
+    height: 100vh; /*viewport height - trabalha com toda a altura da tela*/
     display: grid;
     grid-template-columns: auto auto auto; /*A qtd de auto indica a qtd de colunas*/
+    grid-template-rows: 1fr 1fr 1fr; /*-> Define a qtd de linhas*/
     background-color: purple;
     padding: 5px;
     gap: 2px; /*Insere o espaçamento entre os itens do grid em relação a borda*/
-}
+    /* justify-content: center; -> Trabalha na horizontal */
+    align-content: center; /*-> Trabalha na vertical*/
+    justify-items: center; /*-> Para cada item*/
 
+
+    /* PARA JUSTIFY-CONTENT E ALIGN-CONTENT:
+    end -> joga o conteúdo no final da página, na direita ou esquerda
+    start -> joga o conteúdo para o topo dapágina, na direita ou esquerda */
+
+}
+    
 .itemGrid {
 
     color:white;
     background-color: rgba(225, 255, 255, 0.5);
-    /*border: 1px solid yellow;*/
+    border: 1px solid yellow;
     text-align: center;
-
-
+    width:100px;
+    height: 50px;
 
 }
+
+.colum-element{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+    width: 100%;
+}
+
