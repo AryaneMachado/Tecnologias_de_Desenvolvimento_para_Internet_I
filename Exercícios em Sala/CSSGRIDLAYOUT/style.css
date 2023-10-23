@@ -30,7 +30,7 @@
     border: 1px solid yellow;
     text-align: center;
     width:100px;
-    height: 50px;
+    height: px;
 
 }
 
@@ -39,6 +39,7 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end:2 ;
-    width: 100%;
+    background-color: red;
+    height: 100px;
 }
 
