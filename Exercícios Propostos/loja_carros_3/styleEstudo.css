@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    margin: 1px;
+}
+
+body {
+    text-align: center; /*Todo o conteúdo no centro da página*/
+    display:grid;
+}
+
+h1 {
+    font-size: 2.5em; /*O tamanho do elemento é 2.5x maior que o tamanho do elemento pai*/
+    color:black;
+}
+
+div {
+    justify-self: center; /*Posiciona o item no centro do grid, no eixo das colunas*/
+}
+
+img {
+    width: auto; /*imagem mantem a sua proporção original*/
+}
+
+.logo_Estudo img {
+    
+    width: 250px; /*largura*/
+    height: 250px; /*altura*/
+    border-radius: 50%;
+}
+
+.conj_dados {
+    display: grid;
+    grid-template-columns: auto auto; /*separa os conteúdos de imagem e detalhes em duas colunas*/
+    /*grid-template-rows: auto auto auto; -> Indica a qtd de linhas*/
+    justify-content: center; /*Une as partes separadas em colunas no centro*/
+    margin-top: 20px;
+}
+
+.info_carros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #111;
+    border-radius: 4px;
+    width: 550px;
+    height: 250px;
+    margin: 10px;
+}
+
+.div_imagem img {
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.div_infos {
+    justify-self: start;
+    text-align: left;
+    margin: 15px;
+    line-height: 40px;
+}
+
+.div_infos h2 {
+    color: #fff;
+}
+
+.div_infos p {
+    color: #b2b2b2;
+}
+
+.div_infos span {
+    color: #febe01;
+}
+
+.div_infos button {
+    background-color: #febe01;
+    color: #111;
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+
