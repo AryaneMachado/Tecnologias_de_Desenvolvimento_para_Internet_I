@@ -15,6 +15,7 @@
     /* justify-content: center; -> Trabalha na horizontal */
     align-content: center; /*-> Trabalha na vertical*/
     justify-items: center; /*-> Para cada item*/
+    justify-content:left;
 
 
     /* PARA JUSTIFY-CONTENT E ALIGN-CONTENT:

@@ -32,54 +32,58 @@ img {
 .conj_dados {
     display: grid;
     grid-template-columns: auto auto; /*separa os conteúdos de imagem e detalhes em duas colunas*/
-    /*grid-template-rows: auto auto auto; -> Indica a qtd de linhas*/
+    /*grid-template-rows: 1fr 1fr 1fr; -> Indica a qtd de linhas*/
     justify-content: center; /*Une as partes separadas em colunas no centro*/
     margin-top: 20px;
 }
 
-.info_carros{
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #111;
     border-radius: 4px;
-    width: 550px;
-    height: 250px;
+    width: 650px;
+    height: 300px;
     margin: 10px;
 }
 
-.div_imagem img {
+.div_imgCarro {
     width: 90%;
     margin: 20px;
     text-align: center;
     border-radius: 4px;
 }
 
-.div_infos {
+.div_detalhes {
+    display: flex;
+    flex-direction: column;
     justify-self: start;
     text-align: left;
-    margin: 15px;
-    line-height: 40px;
+    margin: 5px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
-.div_infos h2 {
+.div_detalhes h2 {
     color: #fff;
 }
 
-.div_infos p {
+.div_detalhes p {
     color: #b2b2b2;
 }
 
-.div_infos span {
+.div_detalhes span {
     color: #febe01;
 }
 
-.div_infos button {
+.div_detalhes button {
     background-color: #febe01;
     color: #111;
     height: 35px;
     width: 130px;
     border: none;
     border-radius: 3px;
+    
 }
 
 

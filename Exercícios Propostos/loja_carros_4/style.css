@@ -6,8 +6,8 @@
 
 .header {
 
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 1; /*Começa na linha 1 da coluna*/
+    grid-column-end: 3; /*Termina na linha 3 da coluna*/
     grid-row-start: 1;
     grid-row-end: 2;
     display: flex;

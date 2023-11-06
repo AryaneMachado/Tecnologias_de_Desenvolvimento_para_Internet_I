@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin:0px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    grid-column: 1 / -1;
+}
+
+div {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    width: 80vw;
+    gap: 20px;
+    margin: auto;
+}
+
+p {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 900px) { /*A partir do tamanho de tela menor que 900px recebe a estilização*/
+    h1 {
+
+        background-color: yellow;
+
+    }
+
+    div {
+        width: 95vw;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:900px){ /*Quando a tela estiver entre 600px e 900px*/
+    p {
+        color:blue;
+    }
+
+}
+
+@media screen and (max-width: 600px){ /*A partir do tamanho de tela menor que 600px recebe a estilização*/
+
+    div {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px){ /* A tela deve ter no minimo 1200px para receber a estilização*/
+    p {
+        background: lightblue;
+    }
+
+    div {
+        width: 60vw;
+    }
+}
+
+@media print { /*A realizar um pint da tela (Ctrl + P)*/
+
+    div{
+        background-color: white;
+        grid-template-columns: 1fr;
+
+
+    }
+
+    h1 {
+        background-color: white;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    img {
+        display: none; /*Remove imagem ao printar*/
+    }
+
+}
