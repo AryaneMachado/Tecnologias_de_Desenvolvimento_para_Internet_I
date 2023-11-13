@@ -119,3 +119,81 @@
     background-color: whitesmoke;
     color:black;
 }
+
+@media (max-width: 768px) {
+
+    .header_page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 0;
+        margin: 10px;
+    }
+
+    .logotipo h1 {
+        font-size: 1.5em;
+    }
+
+    .nav_menus ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dados_Automoveis {
+        grid-template-columns: 1fr;
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .div_imagem img {
+        width: 75%;
+    }
+}
+
+/* Para dispositivos móveis (320px-480px) */
+@media (max-width: 480px) {
+
+    .header_page {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .logotipo {
+        display: block;
+    }
+
+    .logotipo img {
+        width: 100px;
+    }
+
+    .header_page div{
+        text-align: center;
+    }
+
+    .logotipo h1 {
+        font-size: 1.8rem;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .nav_menus {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section_infos {
+        grid-template-columns: 1fr;
+    }
+
+    .dados_Automoveis {
+        grid-template-columns: 1fr;
+        width: 65%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .div_imagem img {
+        width: 75%;
+    }
+}
