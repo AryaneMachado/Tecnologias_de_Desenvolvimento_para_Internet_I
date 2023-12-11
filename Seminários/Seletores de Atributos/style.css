@@ -1,0 +1,17 @@
+/* Estilização - Attribute.html */
+
+li[type] {
+    /* Estilos para todos os itens que têm o atributo 'type' */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+/* Estilização - AttributteValor.html */
+
+li[type="citrus"] {
+    /* Estilos para todos os itens que têm o atributo 'type' */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:rgb(50, 255, 23);
+}
+
