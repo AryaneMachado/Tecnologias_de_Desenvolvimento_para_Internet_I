@@ -1,17 +1,61 @@
-/* Estilização - Attribute.html */
+/* Estilização - Atributo.html */
 
 li[type] {
     /* Estilos para todos os itens que têm o atributo 'type' */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
+    background-color: coral;
 }
 
-/* Estilização - AttributteValor.html */
+/* Estilização - AtributoValor.html */
 
 li[type="citrus"] {
-    /* Estilos para todos os itens que têm o atributo 'type' */
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
+    /* Estilos para todos os itens que têm o atributo 'type' cujo valor é 'citrus' */
     color:rgb(50, 255, 23);
+    background-color: crimson;
 }
 
+/* Estilização - AtributoValorEspecifico.html */
+
+li[type*="ci"] {
+    /* Estilos para todos os itens que têm o atributo 'type' cujo valor é 'ci'
+    Esse valor de atributo não precisa ser uma palavra inteira */
+    color:rgb(132, 8, 143);
+    background-color: aquamarine;
+}
+
+/* Estilização - AtributoPalavra.html */
+
+li[type~="primeiro"] {
+    /* Estilos para todos os itens que têm o atributo 'type' e que possuem
+    a palavra primeiro como valor do atributo*/
+    color: rgb(255, 0, 157);
+    background-color: cyan;
+   
+  }
+
+/* Estilização - AtributoHifen.html */
+
+div[type|="value"] {
+    /* Estilos para todos os itens que têm o atributo 'type' e que possuem
+    o valor especificado, ou o valor especificado seguido de um hífen (-).*/
+    color: rgb(255, 102, 0);
+    background-color: burlywood;
+  }
+
+/*Estilização - AtributoPrimeiroValor.html*/
+
+p[class^="valor"] {
+    /* Estilos para todos os itens que têm o atributo 'class' e que possuem
+    o valor especificado no ínicio*/
+    color:darkgreen;
+    background-color: chartreuse;
+}
+
+/*Estilização - AtributoUltimoValor.html*/
+
+p[class$="coisa"] {
+    /* Estilos para todos os itens que têm o atributo 'class' e que possuem
+    o valor especificado por último*/
+    color:rgb(83, 0, 100);
+    background-color: rgb(255, 206, 43);
+}
