@@ -1,0 +1,9 @@
+/* Estilização - AtributoPalavra.html */
+
+li[type~="primeiro"] {
+    /* Estilos para todos os itens que têm o atributo 'type' e que possuem
+    a palavra primeiro como valor do atributo*/
+    color: rgb(255, 0, 157);
+    background-color: cyan;
+   
+  }

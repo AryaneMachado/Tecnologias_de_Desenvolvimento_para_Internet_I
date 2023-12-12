@@ -1,0 +1,8 @@
+/* Estilização - AtributoValorEspecifico.html */
+
+li[type*="ci"] {
+    /* Estilos para todos os itens que têm o atributo 'type' cujo valor é 'ci'
+    Esse valor de atributo não precisa ser uma palavra inteira */
+    color:rgb(132, 8, 143);
+    background-color: aquamarine;
+}

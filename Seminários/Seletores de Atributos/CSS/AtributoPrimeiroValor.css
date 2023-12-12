@@ -1,0 +1,8 @@
+/*Estilização - AtributoPrimeiroValor.html*/
+
+p[class^="valor"] {
+    /* Estilos para todos os itens que têm o atributo 'class' e que possuem
+    o valor especificado no ínicio*/
+    color:darkgreen;
+    background-color: chartreuse;
+}

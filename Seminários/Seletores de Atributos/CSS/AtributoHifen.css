@@ -1,0 +1,8 @@
+/* Estilização - AtributoHifen.html */
+
+div[type|="value"] {
+    /* Estilos para todos os itens que têm o atributo 'type' e que possuem
+    o valor especificado, ou o valor especificado seguido de um hífen (-).*/
+    color: rgb(255, 102, 0);
+    background-color: burlywood;
+  }

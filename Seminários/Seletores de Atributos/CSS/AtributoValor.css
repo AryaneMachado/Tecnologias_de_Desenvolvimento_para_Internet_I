@@ -1,0 +1,7 @@
+/* Estilização - AtributoValor.html */
+
+li[type="citrus"] {
+    /* Estilos para todos os itens que têm o atributo 'type' cujo valor é 'citrus' */
+    color:rgb(50, 255, 23);
+    background-color: crimson;
+}

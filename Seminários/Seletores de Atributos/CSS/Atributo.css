@@ -1,0 +1,7 @@
+/* Estilização - Atributo.html */
+
+li[type] {
+    /* Estilos para todos os itens que têm o atributo 'type' */
+    color: rgb(255, 232, 232);
+    background-color: rgb(206, 95, 55);
+}
